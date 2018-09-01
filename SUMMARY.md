@@ -17,10 +17,10 @@
 * [Chap13 Friendly\_id for Post](friendly_id.md)
 * [Chap14 Add routes for current\_user data](add-current_user-data-routes.md)
 * [Chap15 Security for production](security-for-production.md)
+* [Delete extra tokens to avoid Too many client token to be generated!](too-many-client-token-generated.md)
 * [Chap16 Heroku Deploy](deploy.md)
 * [Token expiration format](token-expiration.md)
 * [Spec Generator Tips](spec-generator-tips.md)
 * [API Serializers Memo](api-serializers.md)
 * [Versioning Memo](versioning.md)
-* [Avoid Too many client token generated!](too-many-client-token-generated.md)
 
