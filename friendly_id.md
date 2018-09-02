@@ -122,6 +122,23 @@ end
 
 
 
+### Database migration
+
+```text
+rails g migration add_slug_to_posts slug:string:uniq
+```
+
+```ruby
+class AddSlugToPosts < ActiveRecord::Migration[5.2]
+  def change
+    add_column :posts, :slug, :string
+    add_index :posts, :slug, unique: true
+  end
+end
+```
+
+
+
 ### controller
 
 replace `Post.find` by `Post.friendly.find`

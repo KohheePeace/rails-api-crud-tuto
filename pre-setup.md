@@ -362,6 +362,14 @@ bundle exec guard init rspec
 
 
 
+#### .rspec
+
+```text
+--require spec_helper
+--format documentation
+--color
+```
+
 ### Final Gemfile
 
 {% code-tabs %}
