@@ -6,7 +6,7 @@
 * [Chap2 Authentication Overview](authentication-overview.md)
 * [Chap3 Prepare Google Sign-in](authentication.md)
 * [Chap4 Implement Google-Sign-in](chap4-implement-google-sign-in.md)
-* [Chap5 Add Server Omniauth](chap5-add-server-omniauth.md)
+* [Chap5 Add Server Omniauth hoge](chap5-add-server-omniauth.md)
 * [Chap6 Create User](chap6-create-user.md)
 * [Chap7 Access\_Token](chap7-access_token.md)
 * [Chap8 Create Access Token](chap8-create-access-token.md)
