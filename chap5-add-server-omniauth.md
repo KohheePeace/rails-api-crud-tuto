@@ -1,4 +1,4 @@
-# Chap5 Add Server Omniauth hoge
+# Chap5 Server Omniauth
 
 {% code-tabs %}
 {% code-tabs-item title="Gemfile" %}
