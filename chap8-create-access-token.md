@@ -135,6 +135,84 @@ end
 
 
 
+ここ、リファクタ
+
+{% code-tabs %}
+{% code-tabs-item title="access\_token.rb" %}
+```ruby
+# == Schema Information
+#
+# Table name: access_tokens
+#
+#  id           :bigint(8)        not null, primary key
+#  expires_at   :datetime
+#  token_digest :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  user_id      :bigint(8)
+#
+# Indexes
+#
+#  index_access_tokens_on_token_digest  (token_digest)
+#  index_access_tokens_on_user_id       (user_id)
+#
+# Foreign Keys
+#
+#  fk_rails_...  (user_id => users.id)
+#
+
+class AccessToken < ApplicationRecord
+  attr_accessor :token
+  belongs_to :user
+
+  def self.generate_token(user)
+    token = self.new_token
+    token_digest = self.digest_token(token)
+    expires_at = Time.current + self.expires_in
+    access_token = self.create(token: token, token_digest: token_digest, expires_at: expires_at, user: user)
+    self.delete_extra_tokens(user) if user.access_tokens.length > self.maximum_tokens_per_user
+    return access_token
+  end
+
+  def self.expires_in
+    14.days
+  end
+
+  def self.maximum_tokens_per_user
+    10
+  end
+
+  def self.delete_extra_tokens(user)
+    maximum_tokens_per_user = self.maximum_tokens_per_user
+
+    user.access_tokens
+      .order(expires_at: :desc)
+      .offset(maximum_tokens_per_user)
+      .destroy_all
+  end
+
+  def self.new_token
+    SecureRandom.urlsafe_base64
+  end
+
+  def self.digest_token(token)
+    Digest::SHA256.hexdigest(token)
+  end
+
+  def self.find_token(bearer_token)
+    # https://github.com/plataformatec/devise/blob/715192a7709a4c02127afb067e66230061b82cf2/lib/devise/token_generator.rb#L12
+    token_digest = Digest::SHA256.hexdigest(bearer_token) if bearer_token
+    AccessToken.find_by(token_digest: token_digest)
+  end
+
+  def expired?
+    expires_at < Time.current
+  end
+end
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 
 
 ### Conclusion
