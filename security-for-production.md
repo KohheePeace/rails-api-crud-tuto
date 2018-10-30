@@ -25,6 +25,16 @@ gem 'rack-attack'
 
 
 {% code-tabs %}
+{% code-tabs-item title="config/application.rb" %}
+```ruby
+config.middleware.use Rack::Attack
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
+
+{% code-tabs %}
 {% code-tabs-item title="config/initializers/rack-attack.rb" %}
 ```ruby
 class Rack::Attack
