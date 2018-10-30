@@ -1,6 +1,6 @@
 # Chap13 Friendly\_id for Post
 
-{% embed data="{\"url\":\"https://github.com/norman/friendly\_id\",\"type\":\"link\",\"title\":\"norman/friendly\_id\",\"description\":\"friendly\_id - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/5042?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/norman/friendly\_id" %}
 
 
 
@@ -169,7 +169,7 @@ Post.find_each(&:save)
 
 
 
-{% embed data="{\"url\":\"http://norman.github.io/friendly\_id/file.Guide.html\",\"type\":\"link\",\"title\":\"File: Guide\\n  \\n    — Documentation by YARD 0.8.7.6\"}" %}
+{% embed url="http://norman.github.io/friendly\_id/file.Guide.html" %}
 
 
 

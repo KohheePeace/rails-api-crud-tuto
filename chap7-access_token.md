@@ -4,7 +4,7 @@
 
 Please look at the below url ! 
 
-{% embed data="{\"url\":\"https://stackoverflow.com/questions/18605294/is-devises-token-authenticatable-secure\",\"type\":\"link\",\"title\":\"Is devise\'s token\_authenticatable secure?\",\"description\":\"I\'m building a simple api with Rails API, and want to make sure I\'m on the right track here. I\'m using devise to handle logins, and decided to go with Devise\'s token\_authenticatable option, which\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://stackoverflow.com/questions/18605294/is-devises-token-authenticatable-secure" %}
 
 It shows ...
 
@@ -20,13 +20,13 @@ It shows ...
 
 And below discussions
 
-{% embed data="{\"url\":\"https://github.com/gonzalo-bulnes/simple\_token\_authentication/issues/82\",\"type\":\"link\",\"title\":\"Is it safe to store authentication tokens in plain text? · Issue \#82 · gonzalo-bulnes/simple\_token\_authentication\",\"description\":\"It seems like this gem stores the authentication tokens in plain text. Doesn&\#39;t this pose a security risk? If anyone ever got read access to the database, they could have everyone&\#39;s token. W...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/244766?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/gonzalo-bulnes/simple\_token\_authentication/issues/82" %}
 
 
 
 **About secure compare**
 
-{% embed data="{\"url\":\"https://github.com/adamniedzielski/tiddle/issues/35\",\"type\":\"link\",\"title\":\"Remove unnecessary secure compare · Issue \#35 · adamniedzielski/tiddle\",\"description\":\"Thanks @DamirSvrtan for explaining this to me! 💚 Here we load all the tokens for the given user into the memory and perform secure compare on them. Secure compare was necessary to prevent timing at...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/2426386?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/adamniedzielski/tiddle/issues/35" %}
 
 
 

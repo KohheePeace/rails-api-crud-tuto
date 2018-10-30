@@ -53,13 +53,13 @@ api.example.com/posts
 
 ### References
 
-{% embed data="{\"url\":\"https://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1\",\"type\":\"link\",\"title\":\"Building Awesome Rails APIs: Part 1 \| Collective Idea\",\"description\":\"After teaching an Advanced Rails class last week, I realized that we use a lot of patterns internally to build great APIs in Rails that many people don’t kno...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://collectiveidea.com/meta/favicon-194x194.png\",\"width\":194,\"height\":194,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://collectiveidea.com/assets/railway\_190929\_1280.jpg?size=summary\_large\_image\",\"width\":400,\"height\":300,\"aspectRatio\":0.75}}" %}
+{% embed url="https://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1" %}
 
-{% embed data="{\"url\":\"https://stackoverflow.com/questions/11762347/rails-route-for-api-on-subdomain\",\"type\":\"link\",\"title\":\"Rails route for api on subdomain\",\"description\":\"I want to make the API of my Rails app accessible through a subdomain \(https://api.domain.com\). I have the following routes defined:  constraints :subdomain =&gt; \'api\' do   namespace :api, default...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://stackoverflow.com/questions/11762347/rails-route-for-api-on-subdomain" %}
 
-{% embed data="{\"url\":\"http://apionrails.icalialabs.com/book/chapter\_two\",\"type\":\"link\",\"title\":\"APIs on Rails\",\"description\":\"The best way to build a REST API using Rails\",\"icon\":{\"type\":\"icon\",\"url\":\"http://apionrails.icalialabs.com/apple-touch-icon-precomposed.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://softcover.s3.amazonaws.com/1615/api\_on\_rails/images/cover-web.png\",\"width\":500,\"height\":500,\"aspectRatio\":1}}" %}
+{% embed url="http://apionrails.icalialabs.com/book/chapter\_two" %}
 
-{% embed data="{\"url\":\"http://railscasts.com/episodes/350-rest-api-versioning\",\"type\":\"link\",\"title\":\"\#350 REST API Versioning - RailsCasts\",\"description\":\"Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://railscasts.com/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="http://railscasts.com/episodes/350-rest-api-versioning" %}
 
 ### Add controllers
 

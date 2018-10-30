@@ -36,9 +36,10 @@ end
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-{% embed data="{\"url\":\"https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview\\n\",\"type\":\"link\",\"title\":\"plataformatec/devise\",\"description\":\"devise - Flexible authentication solution for Rails with Warden.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/127679?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview
+" %}
 
-{% embed data="{\"url\":\"http://railscasts.com/episodes/241-simple-omniauth\",\"type\":\"link\",\"title\":\"\#241 Simple OmniAuth - RailsCasts\",\"description\":\"Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers.\",\"icon\":{\"type\":\"icon\",\"url\":\"http://railscasts.com/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="http://railscasts.com/episodes/241-simple-omniauth" %}
 
 
 
@@ -48,7 +49,7 @@ end
 
 is rails method
 
-{% embed data="{\"url\":\"https://apidock.com/rails/ActiveRecord/FinderMethods/find\_by\_attributes\",\"type\":\"link\",\"title\":\"find\_by\_attributes \(ActiveRecord::FinderMethods\) - APIdock\",\"icon\":{\"type\":\"icon\",\"url\":\"https://apidock.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="https://apidock.com/rails/ActiveRecord/FinderMethods/find\_by\_attributes" %}
 
 so define `create_with_google_omniauth` 
 

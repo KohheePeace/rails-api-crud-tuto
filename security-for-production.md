@@ -16,7 +16,7 @@ config.force_ssl = true
 
 ### Rack-Attack
 
-{% embed data="{\"url\":\"https://github.com/kickstarter/rack-attack\",\"type\":\"link\",\"title\":\"kickstarter/rack-attack\",\"description\":\"rack-attack - Rack middleware for blocking & throttling\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/120676?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/kickstarter/rack-attack" %}
 
 ```text
 gem 'rack-attack'

@@ -30,7 +30,7 @@ end
 
 Use figaro gem to securely configure secrets key
 
-{% embed data="{\"url\":\"https://github.com/laserlemon/figaro\",\"type\":\"link\",\"title\":\"laserlemon/figaro\",\"description\":\"figaro - Simple Rails app configuration\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/34264?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/laserlemon/figaro" %}
 
 {% code-tabs %}
 {% code-tabs-item title="Gemfile" %}
@@ -206,11 +206,11 @@ rails s
 
 
 
-{% embed data="{\"url\":\"https://github.com/zquestz/omniauth-google-oauth2/issues/287\",\"type\":\"link\",\"title\":\"OmniAuth::NoSessionError \(You must provide a session to use OmniAuth.\) on Rails 5 --api · Issue \#287 · zquestz/omniauth-google-oauth2\",\"description\":\"Hello, thanks for this gem. I currently have the following problem: $ rails server =&gt; Booting WEBrick ...blah blah Started GET &quot;/&quot; for 127.0.0.1 at 2017-06-24 18:09:45 +0200 ...blah bl...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/3307327?s=400&v=4\",\"width\":420,\"height\":420,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/zquestz/omniauth-google-oauth2/issues/287" %}
 
 
 
-{% embed data="{\"url\":\"https://stackoverflow.com/questions/38424133/getting-error-omniauthnosessionerror-with-rails-5-api\",\"type\":\"link\",\"title\":\"Getting error OmniAuth::NoSessionError with Rails 5 API\",\"description\":\"I created a new Rails 5 application with rails new appname --api which seems great! I want to use it as a backend to a frontend with React and in time a Chrome App. For now I want to create an API....\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://stackoverflow.com/questions/38424133/getting-error-omniauthnosessionerror-with-rails-5-api" %}
 
 
 
@@ -241,9 +241,9 @@ rails s
 
 ![](.gitbook/assets/sukurnshotto-2018-08-09-204953.png)
 
-### Rack-Cors {#rack-cors}
+### Rack-Cors <a id="rack-cors"></a>
 
-{% embed data="{\"url\":\"https://github.com/cyu/rack-cors\",\"type\":\"link\",\"title\":\"cyu/rack-cors\",\"description\":\"rack-cors - Rack Middleware for handling Cross-Origin Resource Sharing \(CORS\), which makes cross-origin AJAX possible.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/2431?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/cyu/rack-cors" %}
 
 {% code-tabs %}
 {% code-tabs-item title="Gemfile" %}
@@ -288,11 +288,11 @@ In terminal logs,
 
 ![Teminal Error log](.gitbook/assets/sukurnshotto-2018-08-09-201102.png)
 
-{% embed data="{\"url\":\"https://github.com/zquestz/omniauth-google-oauth2/issues/138\",\"type\":\"link\",\"title\":\"CSRF error · Issue \#138 · zquestz/omniauth-google-oauth2\",\"description\":\"Hello, I am using this gem to handle google oauth authentication and I encountered a strange behaviour. When I authenticate with google, everything works fine : redirected to google, consent screen...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/271047?s=400&v=4\",\"width\":200,\"height\":200,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/zquestz/omniauth-google-oauth2/issues/138" %}
 
-{% embed data="{\"url\":\"https://github.com/zquestz/omniauth-google-oauth2/issues/308\",\"type\":\"link\",\"title\":\"CSRF issue · Issue \#308 · zquestz/omniauth-google-oauth2\",\"description\":\"Can&\#39;t say that this is a bug but I am stumped on how to solve it. Maybe posting it hear will bring an idea to someone&\#39;s mind. I&\#39;ve written a super simple Rails program to verify the pro...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/44681?s=400&v=4\",\"width\":336,\"height\":336,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/zquestz/omniauth-google-oauth2/issues/308" %}
 
-{% embed data="{\"url\":\"https://github.com/zquestz/omniauth-google-oauth2/blob/ea3035737e96c1d1e4dbd9058aa9aed73748caf3/examples/config.ru\",\"type\":\"link\",\"title\":\"zquestz/omniauth-google-oauth2\",\"description\":\"omniauth-google-oauth2 - Oauth2 strategy for Google\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/83898?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/zquestz/omniauth-google-oauth2/blob/ea3035737e96c1d1e4dbd9058aa9aed73748caf3/examples/config.ru" %}
 
 {% code-tabs %}
 {% code-tabs-item title="config/initializers/omniauth.rb" %}

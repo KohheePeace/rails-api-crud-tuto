@@ -8,7 +8,7 @@ In this chapter, we are going to learn **Google Sign-in Flow.**
 
 If you have experienced implementing google login on rails,  you may use omniauth-google-oauth2 gem.
 
-{% embed data="{\"url\":\"https://github.com/zquestz/omniauth-google-oauth2\",\"type\":\"link\",\"title\":\"zquestz/omniauth-google-oauth2\",\"description\":\"omniauth-google-oauth2 - Oauth2 strategy for Google\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/83898?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/zquestz/omniauth-google-oauth2" %}
 
 When I first implement the google login for rails-api, I did the same thing with the traditional rails web site.
 
@@ -26,7 +26,7 @@ Check the below url.
 
 In the above documents, they pointed to the below url.
 
-{% embed data="{\"url\":\"https://developers.google.com/identity/sign-in/web/server-side-flow\",\"type\":\"link\",\"title\":\"Google Sign-In for server-side apps  \|  Google Sign-In for Websites        \|  Google Developers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developers.google.com/\_static/08eb25dae9/images/touch-icon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developers.google.com/\_static/08eb25dae9/images/share/devsite-light-green.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://developers.google.com/identity/sign-in/web/server-side-flow" %}
 
 ### 
 

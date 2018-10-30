@@ -8,17 +8,17 @@ In this chapter, we are going to make **Google Sign-in Button.**
 
 Let's follow the Official docs step by step !
 
-{% embed data="{\"url\":\"https://developers.google.com/identity/sign-in/web/server-side-flow\",\"type\":\"link\",\"title\":\"Google Sign-In for server-side apps  \|  Google Sign-In for Websites        \|  Google Developers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developers.google.com/\_static/08eb25dae9/images/touch-icon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developers.google.com/\_static/08eb25dae9/images/share/devsite-light-green.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://developers.google.com/identity/sign-in/web/server-side-flow" %}
 
 ![The Flow Overview](.gitbook/assets/image.png)
 
-#### Step 1: Create a client ID and client secret {#step_1_create_a_client_id_and_client_secret}
+#### Step 1: Create a client ID and client secret <a id="step_1_create_a_client_id_and_client_secret"></a>
 
 ![](.gitbook/assets/screen-shot-2018-08-08-at-6.52.17.png)
 
 ![](.gitbook/assets/screen-shot-2018-08-08-at-6.51.27.png)
 
-#### Step 2: Include the Google platform library on your page {#step_2_include_the_google_platform_library_on_your_page}
+#### Step 2: Include the Google platform library on your page <a id="step_2_include_the_google_platform_library_on_your_page"></a>
 
 {% code-tabs %}
 {% code-tabs-item title="views/pages/index.html.erb" %}
@@ -34,7 +34,7 @@ Let's follow the Official docs step by step !
 
 
 
-#### Step 3: Initialize the GoogleAuth object {#step_3_initialize_the_googleauth_object}
+#### Step 3: Initialize the GoogleAuth object <a id="step_3_initialize_the_googleauth_object"></a>
 
 {% code-tabs %}
 {% code-tabs-item title="views/pages/index.html.erb" %}
@@ -61,7 +61,7 @@ Let's follow the Official docs step by step !
 
 
 
-#### Step 4: Add the sign-in button to your page {#step_4_add_the_sign-in_button_to_your_page}
+#### Step 4: Add the sign-in button to your page <a id="step_4_add_the_sign-in_button_to_your_page"></a>
 
 {% code-tabs %}
 {% code-tabs-item title="views/pages/index.html.erb" %}
@@ -94,11 +94,11 @@ Let's follow the Official docs step by step !
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### Step 5: Sign in the user {#step_5_sign_in_the_user}
+#### Step 5: Sign in the user <a id="step_5_sign_in_the_user"></a>
 
 ![](.gitbook/assets/screen-shot-2018-08-09-at-14.32.29.png)
 
-#### Step 6: Send the authorization code to the server {#step_6_send_the_authorization_code_to_the_server}
+#### Step 6: Send the authorization code to the server <a id="step_6_send_the_authorization_code_to_the_server"></a>
 
 {% code-tabs %}
 {% code-tabs-item title="views/pages/index.html.erb" %}

@@ -89,7 +89,7 @@ end
 
 ### References
 
-{% embed data="{\"url\":\"https://github.com/auth0/node-jsonwebtoken/issues/316\",\"type\":\"link\",\"title\":\"Question: how would you renew a token? · Issue \#316 · auth0/node-jsonwebtoken\",\"description\":\"Hi all, I&\#39;m just started with JWT and it looks very promising! I have backend \(npm\) and frontend \(angular2\) too. When the user logs in I create a JWT and send it to frontend. I use your angular...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/3688096?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/auth0/node-jsonwebtoken/issues/316" %}
 
-{% embed data="{\"url\":\"https://stackoverflow.com/questions/26739167/jwt-json-web-token-automatic-prolongation-of-expiration\",\"type\":\"link\",\"title\":\"JWT \(JSON Web Token\) automatic prolongation of expiration\",\"description\":\"I would like to implement JWT-based authentication to our new REST API. But since the expiration is set in the token, is it possible to automatically prolong it? I don\'t want users to need to sign in\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://stackoverflow.com/questions/26739167/jwt-json-web-token-automatic-prolongation-of-expiration" %}
 

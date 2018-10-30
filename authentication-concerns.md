@@ -17,7 +17,7 @@ end
 
 
 
-{% embed data="{\"url\":\"https://stackoverflow.com/questions/18751027/whats-the-difference-between-a-controller-helper-and-a-concern\",\"type\":\"link\",\"title\":\"What\'s the difference between a controller helper and a concern?\",\"description\":\"Would concerns help me share logic for partials? I see Rails 4 has the \\\"concerns\\\" folder for controllers, but it\'s empty on app generation.  DHH wrote a blog on concerns \(but I think they are for the\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://stackoverflow.com/questions/18751027/whats-the-difference-between-a-controller-helper-and-a-concern" %}
 
 If you're not familiar with concern, just think it is like helpers.
 
@@ -130,7 +130,7 @@ end
 
 
 
-{% embed data="{\"url\":\"https://stackoverflow.com/questions/44323531/how-to-get-bearer-token-passed-through-header-in-rails\",\"type\":\"link\",\"title\":\"How to get bearer token passed through header in rails?\",\"description\":\"In my rails application I\'m able to get the Token Authorization: Token token=\'aUthEnTicAtIonTokeN\' passed in header of request with  authenticate\_with\_http\_token do \|token, options\|  @auth\_token = ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://stackoverflow.com/questions/44323531/how-to-get-bearer-token-passed-through-header-in-rails" %}
 
 
 
@@ -236,15 +236,15 @@ It renders errors message.
 
 ### Reference in this chapter
 
-{% embed data="{\"url\":\"https://github.com/lynndylanhurley/devise\_token\_auth/blob/72976d8d3a0cd8f24578138f9edb7e7930fb75b2/lib/devise\_token\_auth/controllers/helpers.rb\",\"type\":\"link\",\"title\":\"lynndylanhurley/devise\_token\_auth\",\"description\":\"devise\_token\_auth - Token based authentication for Rails JSON APIs. Designed to work with jToker and ng-token-auth.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/468037?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/lynndylanhurley/devise\_token\_auth/blob/72976d8d3a0cd8f24578138f9edb7e7930fb75b2/lib/devise\_token\_auth/controllers/helpers.rb" %}
 
-{% embed data="{\"url\":\"http://apionrails.icalialabs.com/book/chapter\_five\",\"type\":\"link\",\"title\":\"APIs on Rails\",\"description\":\"The best way to build a REST API using Rails\",\"icon\":{\"type\":\"icon\",\"url\":\"http://apionrails.icalialabs.com/apple-touch-icon-precomposed.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://softcover.s3.amazonaws.com/1615/api\_on\_rails/images/cover-web.png\",\"width\":560,\"height\":840,\"aspectRatio\":1.5}}" %}
+{% embed url="http://apionrails.icalialabs.com/book/chapter\_five" %}
 
-{% embed data="{\"url\":\"https://github.com/railstutorial/sample\_app\_rails\_4/blob/0cba8ffccf8b384d5cf7d62f8028a9e01b5c7d1f/app/helpers/sessions\_helper.rb\",\"type\":\"link\",\"title\":\"railstutorial/sample\_app\_rails\_4\",\"description\":\"sample\_app\_rails\_4 - The reference implementation of the sample app for the Ruby on Rails Tutorial \(Rails 4\)\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/35562?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/railstutorial/sample\_app\_rails\_4/blob/0cba8ffccf8b384d5cf7d62f8028a9e01b5c7d1f/app/helpers/sessions\_helper.rb" %}
 
 
 
 In clearance `authenticate_with_token!` is `require_login`
 
-{% embed data="{\"url\":\"https://github.com/thoughtbot/clearance/blob/5cec3a8af844e3cbb5364a676f426725864ff8d0/lib/clearance/authorization.rb\",\"type\":\"link\",\"title\":\"thoughtbot/clearance\",\"description\":\"clearance - Rails authentication with email & password.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars1.githubusercontent.com/u/6183?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/thoughtbot/clearance/blob/5cec3a8af844e3cbb5364a676f426725864ff8d0/lib/clearance/authorization.rb" %}
 

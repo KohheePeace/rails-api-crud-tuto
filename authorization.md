@@ -2,7 +2,7 @@
 
 ### Install Pundit
 
-{% embed data="{\"url\":\"https://github.com/varvet/pundit\",\"type\":\"link\",\"title\":\"varvet/pundit\",\"description\":\"pundit - Minimal authorization through OO design and pure Ruby classes\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/3612746?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/varvet/pundit" %}
 
 
 
@@ -408,7 +408,7 @@ end
 
 ### Ruby class memo
 
-{% embed data="{\"url\":\"https://forum.upcase.com/t/using-instance-variables-vs-attribute-accessors/1788\",\"type\":\"link\",\"title\":\"Using instance variables vs attribute accessors\",\"description\":\"When you are accessing private, internal state of your object, do you prefer to use attribute accessors \(getter and setter methods\) or direct instance variable access? Consider this contrived example:  class LineItem   def initialize\(item, quantity\)     @item = item     @quantity = quantity   end    \# Access our internal state via instance variables   def total     @item.price \* @quantity   end    \# Or via attr\_readers   def total     item.price \* quantity   end    \#... which would require somet...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://forum.upcase.com/images/default-apple-touch-icon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://forum.upcase.com/images/default-apple-touch-icon.png\",\"aspectRatio\":0}}" %}
+{% embed url="https://forum.upcase.com/t/using-instance-variables-vs-attribute-accessors/1788" %}
 
 
 
