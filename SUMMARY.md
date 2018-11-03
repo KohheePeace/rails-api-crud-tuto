@@ -23,4 +23,5 @@
 * [Spec Generator Tips](spec-generator-tips.md)
 * [API Serializers Memo](api-serializers.md)
 * [Versioning Memo](versioning.md)
+* [Heroku TODO](heroku-todo.md)
 
